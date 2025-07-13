@@ -82,7 +82,7 @@ export default function Footer() {
             <div className="mt-4 space-y-1 text-sm text-gray-600">
               <p><span className="font-medium"></span>Information Officer</p>
               <p>📞 9846418981</p>
-              <p>📧 info@parijat.com.np</p>
+              {/* <p>📧 info@parijat.com.np</p> */}
             </div>
           </div>
     

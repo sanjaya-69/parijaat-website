@@ -5,28 +5,22 @@ import Image from "next/image"
 export default function Media() {
   const mediaItems = [
     {
-      type: "video",
+      type: "gallery",
       title: "Cooperative Success Stories",
-      thumbnail: "/placeholder.svg?height=200&width=300",
+      thumbnail: "./image1.jpeg?height=200&width=300",
       icon: <Play className="h-8 w-8 text-white" />,
     },
     {
       type: "gallery",
       title: "Annual Meeting 2024",
-      thumbnail: "/placeholder.svg?height=200&width=300",
+      thumbnail: "./image2.jpeg?height=200&width=300",
       icon: <ImageIcon className="h-8 w-8 text-white" />,
     },
     {
-      type: "document",
-      title: "Annual Report 2023",
-      thumbnail: "/placeholder.svg?height=200&width=300",
+      type: "gallery",
+      title: "Annual Meeting 2023",
+      thumbnail: "/image3.jpeg?height=200&width=300",
       icon: <FileText className="h-8 w-8 text-white" />,
-    },
-    {
-      type: "video",
-      title: "Digital Banking Tutorial",
-      thumbnail: "/placeholder.svg?height=200&width=300",
-      icon: <Play className="h-8 w-8 text-white" />,
     },
   ]
 
