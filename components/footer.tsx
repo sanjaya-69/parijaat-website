@@ -1,12 +1,12 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { MapPin, Phone, Mail, ArrowRight } from "lucide-react"
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa"
 
 export default function Footer() {
   const [email, setEmail] = useState("")
@@ -21,17 +21,14 @@ export default function Footer() {
   }
 
   const userLinks = ["Home", "About", "Services", "Media"]
-
-  // const memberLinks = ["Members", "test", "About Us", "Home"]
-
   const quickMenuLinks = ["Donors' List", "Reports", "Testimonials", "Members"]
-
   const governanceLinks = ["Governance", "Committee", "Membership Form", "About Us", "Home"]
 
   return (
     <footer className="bg-gray-100 pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+
           {/* Contact Section */}
           <div>
             <h3 className="text-xl font-semibold text-green-600 mb-6 border-b-2 border-green-600 pb-2 inline-block">
@@ -66,38 +63,29 @@ export default function Footer() {
                   </a>
                 ))}
               </div>
-              {/* <div className="space-y-3">
-                {memberLinks.map((link, index) => (
-                  <a key={index} href="#" className="block text-gray-600 hover:text-green-600 transition-colors">
-                    {link}
-                  </a>
-                ))}
-              </div> */}
             </div>
           </div>
 
-          {/* Quick Menu
-          <div>
-            <h3 className="text-xl font-semibold text-green-600 mb-6 border-b-2 border-green-600 pb-2 inline-block">
-              Quick Menu
-            </h3>
-            <div className="grid grid-cols-2 gap-2">
-              <div className="space-y-3">
-                {quickMenuLinks.map((link, index) => (
-                  <a key={index} href="#" className="block text-gray-600 hover:text-green-600 transition-colors">
-                    {link}
-                  </a>
-                ))}
-              </div>
-              <div className="space-y-3">
-                {governanceLinks.map((link, index) => (
-                  <a key={index} href="#" className="block text-gray-600 hover:text-green-600 transition-colors">
-                    {link}
-                  </a>
-                ))}
-              </div>
+           {/* Profile Section */}
+           <div className="text-center">
+            <img
+              src="../officer.jpeg"
+              alt="Binod Paudel"
+              className="mx-auto rounded-lg w-40 h-40 object-cover"
+            />
+            <h4 className="mt-4 text-lg font-bold text-gray-800">Binod Paudel</h4>
+            {/* <div className="flex justify-center space-x-4 mt-2 text-green-600 text-lg">
+              <a href="#"><FaFacebookF /></a>
+              <a href="#"><FaTwitter /></a>
+              <a href="#"><FaLinkedinIn /></a>
+            </div> */}
+            <div className="mt-4 space-y-1 text-sm text-gray-600">
+              <p><span className="font-medium"></span>Information Officer</p>
+              <p>📞 9846418981</p>
+              <p>📧 info@parijat.com.np</p>
             </div>
-          </div> */}
+          </div>
+    
 
           {/* Quick Contact */}
           <div>
@@ -127,6 +115,8 @@ export default function Footer() {
             </form>
           </div>
         </div>
+
+
 
         {/* Copyright */}
         <div className="border-t border-gray-300 pt-8 text-center">

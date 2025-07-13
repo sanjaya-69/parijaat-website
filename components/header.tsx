@@ -38,19 +38,16 @@ export default function Header() {
 
       {/* Main Navigation */}
       <nav className="bg-white shadow-md">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-4">
-            {/* Logo */}
-            <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
-                <div className="text-white font-bold text-lg">P</div>
-              </div>
-              <div className="text-green-600">
-                <div className="font-bold text-lg">पारिजात बचत तथा</div>
-                <div className="text-sm">ऋण सहकारी संस्था लि.</div>
-              </div>
-            </div>
-
+  <div className="container mx-auto px-4">
+    <div className="flex justify-between items-center py-4">
+      {/* Logo */}
+      <div className="flex items-center space-x-3">
+        <img src="../logo.png" alt="Parijaat Logo" className="w-12 h-12 object-contain" />
+        <div className="text-green-600">
+          <div className="font-bold text-lg">पारिजात बचत तथा</div>
+          <div className="text-sm">ऋण सहकारी संस्था लि.</div>
+        </div>
+      </div>
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
               <a href="#home" className="text-green-600 font-semibold hover:text-green-800">

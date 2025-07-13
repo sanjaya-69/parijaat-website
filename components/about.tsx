@@ -31,8 +31,9 @@ export default function About() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Parijat Cooperative</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Parijat Saving & Credit Cooperative Ltd. is committed to providing quality financial services to our
-            community, fostering economic growth and social development through cooperative principles.
+          Established in 2066, Parijat Saving and Credit Cooperative Ltd. is a community-focused cooperative based in Pokhara, Nepal. Guided by the principles of mutual support, transparency, and sustainable development, we are dedicated to improving the economic and social well-being of our members.
+
+As a registered cooperative under the Cooperative Act of Nepal, we operate with a commitment to democratic values and inclusive participation. Our members are at the heart of every decision we make.
           </p>
         </div>
 
