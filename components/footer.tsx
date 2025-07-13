@@ -20,9 +20,9 @@ export default function Footer() {
     setMessage("")
   }
 
-  const userLinks = ["Pictures", "MEDIA", "News & Notices", "Testimonials"]
+  const userLinks = ["Home", "About", "Services", "Media"]
 
-  const memberLinks = ["Members", "Membership Form", "About Us", "Home"]
+  // const memberLinks = ["Members", "test", "About Us", "Home"]
 
   const quickMenuLinks = ["Donors' List", "Reports", "Testimonials", "Members"]
 
@@ -44,7 +44,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-gray-600" />
-                <p className="text-gray-600">+061-531688</p>
+                <p className="text-gray-600">+977-061531688</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gray-600" />
@@ -66,13 +66,13 @@ export default function Footer() {
                   </a>
                 ))}
               </div>
-              <div className="space-y-3">
+              {/* <div className="space-y-3">
                 {memberLinks.map((link, index) => (
                   <a key={index} href="#" className="block text-gray-600 hover:text-green-600 transition-colors">
                     {link}
                   </a>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
 

@@ -16,7 +16,7 @@ export default function Header() {
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
               <div className="flex items-center space-x-2 text-green-600">
                 <Phone className="h-4 w-4" />
-                <span>+061-531688</span>
+                <span>+977-061531688</span>
               </div>
               <div className="flex items-center space-x-2 text-green-600">
                 <MapPin className="h-4 w-4" />
@@ -30,7 +30,7 @@ export default function Header() {
                 <Linkedin className="h-4 w-4 text-blue-700 cursor-pointer hover:text-blue-900" />
                 <Youtube className="h-4 w-4 text-red-600 cursor-pointer hover:text-red-800" />
               </div>
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-4 py-1 text-sm">JOIN NOW</Button>
+              {/* <Button className="bg-green-600 hover:bg-green-700 text-white px-4 py-1 text-sm">JOIN NOW</Button> */}
             </div>
           </div>
         </div>
@@ -58,12 +58,12 @@ export default function Header() {
               </a>
               <div className="relative group">
                 <a href="#about" className="text-gray-700 hover:text-green-600 flex items-center">
-                  ABOUT <span className="ml-1">▼</span>
+                  ABOUT <span className="ml-1"></span>
                 </a>
               </div>
               <div className="relative group">
                 <a href="#services" className="text-gray-700 hover:text-green-600 flex items-center">
-                  SERVICES <span className="ml-1">▼</span>
+                  SERVICES <span className="ml-1"></span>
                 </a>
               </div>
               <a href="#news" className="text-gray-700 hover:text-green-600">
@@ -71,16 +71,16 @@ export default function Header() {
               </a>
               <div className="relative group">
                 <a href="#media" className="text-gray-700 hover:text-green-600 flex items-center">
-                  MEDIA <span className="ml-1">▼</span>
+                  MEDIA <span className="ml-1"></span>
                 </a>
               </div>
               <a href="#contact" className="text-gray-700 hover:text-green-600">
                 CONTACT
               </a>
-              <a href="#careers" className="text-gray-700 hover:text-green-600">
+              {/* <a href="#careers" className="text-gray-700 hover:text-green-600">
                 CAREERS
               </a>
-              <Search className="h-5 w-5 text-gray-700 cursor-pointer hover:text-green-600" />
+              <Search className="h-5 w-5 text-gray-700 cursor-pointer hover:text-green-600" /> */}
             </div>
 
             {/* Mobile Menu Button */}
@@ -111,9 +111,9 @@ export default function Header() {
                 <a href="#contact" className="text-gray-700 hover:text-green-600">
                   CONTACT
                 </a>
-                <a href="#careers" className="text-gray-700 hover:text-green-600">
+                {/* <a href="#careers" className="text-gray-700 hover:text-green-600">
                   CAREERS
-                </a>
+                </a> */}
               </div>
             </div>
           )}
