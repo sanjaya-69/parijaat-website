@@ -131,7 +131,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-300 pt-8 text-center">
           <p className="text-gray-600 text-sm">
-            ©2025 Parijaat Saving & Credit Cooperative Ltd. All Rights Reserved.
+            ©2025 Parijat Saving & Credit Cooperative Ltd. All Rights Reserved.
           </p>
         </div>
       </div>

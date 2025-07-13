@@ -33,7 +33,7 @@ export default function NewsNotices() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">News & Notices</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Stay updated with the latest news, announcements, and important notices from Parijaat Cooperative.
+            Stay updated with the latest news, announcements, and important notices from Parijat Cooperative.
           </p>
         </div>
 

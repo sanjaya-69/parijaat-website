@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Parijaat Saving & Credit Cooperative Ltd.",
-  description: "Quality service is our motto - Parijaat Cooperative providing financial services in Nepal",
+  title: "Parijat Saving & Credit Cooperative Ltd.",
+  description: "Quality service is our motto - Parijat Cooperative providing financial services in Nepal",
     generator: 'v0.dev'
 }
 

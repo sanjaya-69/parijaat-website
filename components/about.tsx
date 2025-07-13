@@ -29,9 +29,9 @@ export default function About() {
     <section id="about" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Parijaat Cooperative</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Parijat Cooperative</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Parijaat Saving & Credit Cooperative Ltd. is committed to providing quality financial services to our
+            Parijat Saving & Credit Cooperative Ltd. is committed to providing quality financial services to our
             community, fostering economic growth and social development through cooperative principles.
           </p>
         </div>

@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="home" className="relative h-screen flex items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <Image src="/images/hero-bg.png" alt="Parijaat Cooperative Team" fill className="object-cover" priority />
+        <Image src="/images/hero-bg.png" alt="Parijat Cooperative Team" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
 
