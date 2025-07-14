@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
-const images = ["/image2.jpeg", "/image7.jpeg"]; // Add your image paths here
+const images = ["/image2.jpeg", "/image7.jpg"]; // Add your image paths here
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);

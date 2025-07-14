@@ -6,13 +6,13 @@ export default function Media() {
   const mediaItems = [
         {
       type: "gallery",
-      title: "Board Member",
+      title: "Manager",
       thumbnail: "/image6.jpg?height=200&width=300",
       icon: <FileText className="h-8 w-8 text-white" />,
     },
      {
       type: "gallery",
-      title: "Board Member",
+      title: "Loan Manager",
       thumbnail: "/image5.jpg?height=200&width=300",
       icon: <FileText className="h-8 w-8 text-white" />,
     },
