@@ -4,6 +4,18 @@ import Image from "next/image"
 
 export default function Media() {
   const mediaItems = [
+        {
+      type: "gallery",
+      title: "Board Member",
+      thumbnail: "/image4.jpg?height=200&width=300",
+      icon: <FileText className="h-8 w-8 text-white" />,
+    },
+        {
+      type: "gallery",
+      title: "Board Member",
+      thumbnail: "/image4.jpg?height=200&width=300",
+      icon: <FileText className="h-8 w-8 text-white" />,
+    },
     {
       type: "gallery",
       title: "Cooperative Success Stories",
