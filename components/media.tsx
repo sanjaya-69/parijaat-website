@@ -7,13 +7,13 @@ export default function Media() {
         {
       type: "gallery",
       title: "Board Member",
-      thumbnail: "/image4.jpg?height=200&width=300",
+      thumbnail: "/image6.jpg?height=200&width=300",
       icon: <FileText className="h-8 w-8 text-white" />,
     },
-        {
+     {
       type: "gallery",
       title: "Board Member",
-      thumbnail: "/image5.jpg?height=200&width=300",
+      thumbnail: "/image7.jpg?height=200&width=300",
       icon: <FileText className="h-8 w-8 text-white" />,
     },
     {
