@@ -41,7 +41,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-gray-600" />
-                <p className="text-gray-600">+977-061581688 </p>
+                <p className="text-gray-600">+977-61581688 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gray-600" />
@@ -81,7 +81,7 @@ export default function Footer() {
             </div> */}
             <div className="mt-4 space-y-1 text-sm text-gray-600">
               <p><span className="font-medium"></span>Information Officer</p>
-              <p>📞 9846418981</p>
+              <p>📞 +977-9846418981</p>
               {/* <p>📧 info@parijat.com.np</p> */}
             </div>
           </div>
